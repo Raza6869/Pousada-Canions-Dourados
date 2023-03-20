@@ -1,0 +1,82 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+    background-color: burlywood;
+    margin: 0 auto;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+    margin: 0 auto;
+    padding: 0px 20px 0px 20px;
+}
+
+.menu li {
+    display: block;
+    
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    
+}
+
+.redes-sociais img{
+    height: 40px;
+    width: 60px;
+    padding: 15px;
+
+}
+.logo img{
+    height: 160px;
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.titulo{
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: rgb(48, 34, 34);
+}
+
+.quarto-1{
+    background-color: rgb(153, 123, 102);
+    margin: 60px;
+}
+.quarto-1 p{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.quartos img{
+    height: 450px;
+    padding: 20px;
+}
+
+ 
